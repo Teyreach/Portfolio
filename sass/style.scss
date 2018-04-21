@@ -43,7 +43,7 @@ header,
 .navbar-default .navbar-nav > li > a,
 header h1,
 .arrow-down {
-  color: #0abde3;
+  color: #40739e;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -83,7 +83,7 @@ header nav a:hover:after,
 }
 
 .arrow-down a {
-  color: #0abde3;
+  color: #40739e;
 }
 
 .arrow-down a:hover {
@@ -125,7 +125,7 @@ h2:before {
   left: 0;
 }
 
-main .container {
+main .line {
   padding-bottom: 40px;
   border-bottom: 1px solid #d38947;
 }
@@ -249,9 +249,11 @@ footer small {
   margin: 5px 20px;
   font-size: 0.7em;
 }
-
+.list-inline{
+  margin: 0px;
+}
 .list-inline > li {
-  margin-top: 20px;
+  margin: 20px 0 0 0;
 }
 
 /*MEDIA QUERY*/
@@ -415,7 +417,7 @@ h2:before {
   left: 0;
 }
 
-main .container {
+main .line {
   padding-bottom: 40px;
   border-bottom: 1px solid #D38947
 }
@@ -496,7 +498,7 @@ footer small {
 }
 
 .list-inline>li {
-  margin-top: 20px;
+  margin: 20px 0 0 0;
 }
 
 /*MEDIA QUERY*/

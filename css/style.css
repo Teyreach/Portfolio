@@ -57,7 +57,7 @@ html .arrow-down, body #brand,
 body .navbar-default .navbar-nav > li > a,
 body header h1,
 body .arrow-down {
-  color: #0abde3;
+  color: #40739e;
 }
 
 html .navbar-default .navbar-nav > li > a:hover, body .navbar-default .navbar-nav > li > a:hover {
@@ -98,7 +98,7 @@ html .upAndDown:hover, body .upAndDown:hover {
 }
 
 html .arrow-down a, body .arrow-down a {
-  color: #0abde3;
+  color: #40739e;
 }
 
 html .arrow-down a:hover, body .arrow-down a:hover {
@@ -138,7 +138,7 @@ html h2:before, body h2:before {
   left: 0;
 }
 
-html main .container, body main .container {
+html main .line, body main .line {
   padding-bottom: 40px;
   border-bottom: 1px solid #d38947;
 }
@@ -256,8 +256,12 @@ html footer small, body footer small {
   font-size: 0.7em;
 }
 
+html .list-inline, body .list-inline {
+  margin: 0px;
+}
+
 html .list-inline > li, body .list-inline > li {
-  margin-top: 20px;
+  margin: 20px 0 0 0;
 }
 
 @media screen and (max-width: 990px) {
@@ -409,7 +413,7 @@ h2:before {
   left: 0;
 }
 
-main .container {
+main .line {
   padding-bottom: 40px;
   border-bottom: 1px solid #D38947;
 }
@@ -488,7 +492,7 @@ footer small {
 }
 
 .list-inline > li {
-  margin-top: 20px;
+  margin: 20px 0 0 0;
 }
 
 /*MEDIA QUERY*/
