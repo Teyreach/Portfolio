@@ -32,3 +32,49 @@ $(document).ready(function(){
   });
 
 });
+$("#widget").localizationTool({
+                       strings: {
+                           "id:omnie" : {
+ 													 	pl_PL : "O MNIE"
+													},
+													 "id:kontakt" : {
+ 													 	pl_PL : "KONTAKT"
+													},
+													 "id:i" : {
+ 													 	pl_PL : "I"
+													},
+													"id:t" : {
+													 pl_PL : "T"
+												 },
+												 "id:a" : {
+													pl_PL : "A"
+												},
+												"id:m" : {
+												 pl_PL : "M"
+											 },
+											 "id:exc" : {
+												pl_PL : ""
+											},
+											"id:blank" : {
+												pl_PL : ""
+											},
+											"id:omnie1" : {
+												pl_PL : "Kilka słów o mnie..."
+											},
+											"id:tekst" : {
+												pl_PL : "Cześć, Nazywam się Robert Koszela, moja przygoda z programowaniem zaczęła się 7 miesięcy temu. Od tamtego momentu codziennie wgłębiałem się w projektowanie stron internetowych i programowanie. W przyszłości chciałbym rozwijać się jako Front-End Developer. Codziennie uczę się czegoś nowego, aby nadążyć za trendami i najnowszymi technologiami."
+											},
+											"id:umiej" : {
+												pl_PL : "Umiejętności:"
+											},
+											"id:narzedzia" : {
+												pl_PL : "Narzędzia:"
+											},
+											"id:praca" : {
+												pl_PL : "Moje projekty:"
+											},
+											"id:kontakt1" : {
+												pl_PL : "KONTAKT"
+											}
+                    }
+                  });
