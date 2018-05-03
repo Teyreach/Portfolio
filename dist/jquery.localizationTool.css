@@ -843,7 +843,7 @@
 .localizationTool .ltool-language-flag {
   display: block;
   float: left;
-  margin-top: 3px;
+  margin-top: 5px;
 }
 .localizationTool .ltool-language-flag,
 .localizationTool .ltool-language-countryname {
